@@ -1,0 +1,73 @@
+
+.header{
+	position:absolute;
+	height:100px;
+	display:block;
+	top:0px;
+	left:0px;
+	right:0px;
+	text-align:center;
+	clear:both;
+	font-family:Courier New;
+}
+.header p{margin-top:-20px;}
+.header h1:hover{font-size:3em;margin-top:0px;
+}
+.header p:hover{font-size:3em;margin-top:-40px;}
+
+button{
+	position:relative;
+	display:block;
+	font-family:serif;
+	font-size:3em;
+	width:205px;
+	background-color:#0186ea;
+	color:white;
+	border-radius:10px;
+	border-width:0px;
+	display:block;
+	margin: 110px auto 0px auto;
+}
+
+#instructions{
+	display:block;
+	position:relative;
+	font-family:cursive;
+	width:220px;
+	text-align:center;
+	margin: 10px auto;
+
+}
+
+#container{
+	position:relative;
+	display:block;
+	margin: 10px auto;
+	clear:both;
+	}
+
+
+
+#container div{
+	float:right;
+	}
+
+button:hover{
+	background-color:#0192ea;
+	border-radius:10px;
+	border-width:0px;
+	font-size:5em;
+	padding:10px 40px;
+	width:300px;
+}
+button:active{
+	background-color:#0186ea;
+	border-radius:10px;
+	border-width:0px;
+}
+button:visited{
+	background-color:#0186ea;
+	border-radius:10px;
+	border-width:0px;
+}
+a{text-decoration:none;}
